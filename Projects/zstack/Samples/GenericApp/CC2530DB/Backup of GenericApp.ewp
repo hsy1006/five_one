@@ -12,7 +12,7 @@
       <name>General</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>5</version>
+        <version>3</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -141,6 +141,16 @@
           <state>0</state>
         </option>
         <option>
+          <name>GRuntimeLibSelect</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
+          <name>GRuntimeLibSelectSlave</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
           <name>RTDescription</name>
           <state>Use the legacy C runtime library.</state>
         </option>
@@ -219,44 +229,13 @@
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
         </option>
-        <option>
-          <name>PDATA 8-15 register address</name>
-          <state>0xA0</state>
-        </option>
-        <option>
-          <name>PDATA 16-31 register address</name>
-          <state>0xEA</state>
-        </option>
-        <option>
-          <name>General Far22 Heap Size</name>
-          <state>0xFFF</state>
-        </option>
-        <option>
-          <name>GeneralMisraVer</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>GeneralMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelect2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelectSlave2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>4</archiveVersion>
+      <archiveVersion>3</archiveVersion>
       <data>
-        <version>9</version>
+        <version>6</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -426,6 +405,10 @@
           <state>1</state>
         </option>
         <option>
+          <name>CCLangSelect</name>
+          <state>0</state>
+        </option>
+        <option>
           <name>NoUBROFMessages</name>
           <state>0</state>
         </option>
@@ -472,6 +455,11 @@
           <state>0</state>
         </option>
         <option>
+          <name>CCStdIncludePath</name>
+          <state>$TOOLKIT_DIR$\INC\</state>
+          <state>$TOOLKIT_DIR$\INC\CLIB\</state>
+        </option>
+        <option>
           <name>CompilerMisraRules98</name>
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
@@ -501,38 +489,13 @@
           <name>CCOptLevelSlave</name>
           <state>3</state>
         </option>
-        <option>
-          <name>CompilerMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>IccLang</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccAllowVLA</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCppDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccRelaxedFpPrecision</name>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>A8051</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>4</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -637,6 +600,11 @@
           <state>0</state>
         </option>
         <option>
+          <name>AIncludes</name>
+          <state>$TOOLKIT_DIR$\inc\</state>
+          <state>$TOOLKIT_DIR$\src\lib</state>
+        </option>
+        <option>
           <name>ADefines</name>
           <state></state>
         </option>
@@ -676,14 +644,6 @@
           <name>AMaxErrNum</name>
           <state>100</state>
         </option>
-        <option>
-          <name>Ignore standard include paths</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Include directories</name>
-          <state>$TOOLKIT_DIR$\SRC\LIB</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -711,7 +671,7 @@
       <name>XLINK</name>
       <archiveVersion>3</archiveVersion>
       <data>
-        <version>17</version>
+        <version>16</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -1024,10 +984,6 @@
           <name>CrcInitialValue</name>
           <state>0x0</state>
         </option>
-        <option>
-          <name>Linker Far22 Heap Size</name>
-          <state>1</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -1071,7 +1027,7 @@
       <name>General</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>5</version>
+        <version>3</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -1200,6 +1156,16 @@
           <state>0</state>
         </option>
         <option>
+          <name>GRuntimeLibSelect</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
+          <name>GRuntimeLibSelectSlave</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
           <name>RTDescription</name>
           <state>Use the legacy C runtime library.</state>
         </option>
@@ -1278,44 +1244,13 @@
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
         </option>
-        <option>
-          <name>PDATA 8-15 register address</name>
-          <state>0xA0</state>
-        </option>
-        <option>
-          <name>PDATA 16-31 register address</name>
-          <state>0xEA</state>
-        </option>
-        <option>
-          <name>General Far22 Heap Size</name>
-          <state>0xFFF</state>
-        </option>
-        <option>
-          <name>GeneralMisraVer</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>GeneralMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelect2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelectSlave2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>4</archiveVersion>
+      <archiveVersion>3</archiveVersion>
       <data>
-        <version>9</version>
+        <version>6</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -1485,6 +1420,10 @@
           <state>1</state>
         </option>
         <option>
+          <name>CCLangSelect</name>
+          <state>0</state>
+        </option>
+        <option>
           <name>NoUBROFMessages</name>
           <state>0</state>
         </option>
@@ -1531,6 +1470,11 @@
           <state>0</state>
         </option>
         <option>
+          <name>CCStdIncludePath</name>
+          <state>$TOOLKIT_DIR$\INC\</state>
+          <state>$TOOLKIT_DIR$\INC\CLIB\</state>
+        </option>
+        <option>
           <name>CompilerMisraRules98</name>
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
@@ -1560,38 +1504,13 @@
           <name>CCOptLevelSlave</name>
           <state>3</state>
         </option>
-        <option>
-          <name>CompilerMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>IccLang</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccAllowVLA</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCppDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccRelaxedFpPrecision</name>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>A8051</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>4</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -1696,6 +1615,11 @@
           <state>0</state>
         </option>
         <option>
+          <name>AIncludes</name>
+          <state>$TOOLKIT_DIR$\inc\</state>
+          <state>$TOOLKIT_DIR$\src\lib</state>
+        </option>
+        <option>
           <name>ADefines</name>
           <state></state>
         </option>
@@ -1735,14 +1659,6 @@
           <name>AMaxErrNum</name>
           <state>100</state>
         </option>
-        <option>
-          <name>Ignore standard include paths</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Include directories</name>
-          <state>$TOOLKIT_DIR$\SRC\LIB</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -1770,7 +1686,7 @@
       <name>XLINK</name>
       <archiveVersion>3</archiveVersion>
       <data>
-        <version>17</version>
+        <version>16</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -2083,10 +1999,6 @@
           <name>CrcInitialValue</name>
           <state>0x0</state>
         </option>
-        <option>
-          <name>Linker Far22 Heap Size</name>
-          <state>1</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -2130,7 +2042,7 @@
       <name>General</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>5</version>
+        <version>3</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -2259,6 +2171,16 @@
           <state>0</state>
         </option>
         <option>
+          <name>GRuntimeLibSelect</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
+          <name>GRuntimeLibSelectSlave</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
           <name>RTDescription</name>
           <state>Use the legacy C runtime library.</state>
         </option>
@@ -2337,44 +2259,13 @@
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
         </option>
-        <option>
-          <name>PDATA 8-15 register address</name>
-          <state>0xA0</state>
-        </option>
-        <option>
-          <name>PDATA 16-31 register address</name>
-          <state>0xEA</state>
-        </option>
-        <option>
-          <name>General Far22 Heap Size</name>
-          <state>0xFFF</state>
-        </option>
-        <option>
-          <name>GeneralMisraVer</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>GeneralMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelect2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelectSlave2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>4</archiveVersion>
+      <archiveVersion>3</archiveVersion>
       <data>
-        <version>9</version>
+        <version>6</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -2546,6 +2437,10 @@
           <state>1</state>
         </option>
         <option>
+          <name>CCLangSelect</name>
+          <state>0</state>
+        </option>
+        <option>
           <name>NoUBROFMessages</name>
           <state>0</state>
         </option>
@@ -2592,6 +2487,11 @@
           <state>0</state>
         </option>
         <option>
+          <name>CCStdIncludePath</name>
+          <state>$TOOLKIT_DIR$\INC\</state>
+          <state>$TOOLKIT_DIR$\INC\CLIB\</state>
+        </option>
+        <option>
           <name>CompilerMisraRules98</name>
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
@@ -2621,38 +2521,13 @@
           <name>CCOptLevelSlave</name>
           <state>3</state>
         </option>
-        <option>
-          <name>CompilerMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>IccLang</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccAllowVLA</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCppDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccRelaxedFpPrecision</name>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>A8051</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>4</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -2757,6 +2632,13 @@
           <state>0</state>
         </option>
         <option>
+          <name>AIncludes</name>
+          <state>$TOOLKIT_DIR$\inc\</state>
+          <state>$TOOLKIT_DIR$\src\lib</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\HAL\INCLUDE</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\HAL\TARGET\CC2530EB</state>
+        </option>
+        <option>
           <name>ADefines</name>
           <state></state>
         </option>
@@ -2796,16 +2678,6 @@
           <name>AMaxErrNum</name>
           <state>100</state>
         </option>
-        <option>
-          <name>Ignore standard include paths</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Include directories</name>
-          <state>$TOOLKIT_DIR$\SRC\LIB</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\HAL\INCLUDE</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\HAL\TARGET\CC2530EB</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -2833,7 +2705,7 @@
       <name>XLINK</name>
       <archiveVersion>3</archiveVersion>
       <data>
-        <version>17</version>
+        <version>16</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -3146,10 +3018,6 @@
           <name>CrcInitialValue</name>
           <state>0x0</state>
         </option>
-        <option>
-          <name>Linker Far22 Heap Size</name>
-          <state>1</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -3193,7 +3061,7 @@
       <name>General</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>5</version>
+        <version>3</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -3322,6 +3190,16 @@
           <state>0</state>
         </option>
         <option>
+          <name>GRuntimeLibSelect</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
+          <name>GRuntimeLibSelectSlave</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
           <name>RTDescription</name>
           <state>Use the legacy C runtime library.</state>
         </option>
@@ -3400,44 +3278,13 @@
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
         </option>
-        <option>
-          <name>PDATA 8-15 register address</name>
-          <state>0xA0</state>
-        </option>
-        <option>
-          <name>PDATA 16-31 register address</name>
-          <state>0xEA</state>
-        </option>
-        <option>
-          <name>General Far22 Heap Size</name>
-          <state>0xFFF</state>
-        </option>
-        <option>
-          <name>GeneralMisraVer</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>GeneralMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelect2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelectSlave2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>4</archiveVersion>
+      <archiveVersion>3</archiveVersion>
       <data>
-        <version>9</version>
+        <version>6</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -3608,6 +3455,10 @@
           <state>1</state>
         </option>
         <option>
+          <name>CCLangSelect</name>
+          <state>0</state>
+        </option>
+        <option>
           <name>NoUBROFMessages</name>
           <state>0</state>
         </option>
@@ -3654,6 +3505,11 @@
           <state>0</state>
         </option>
         <option>
+          <name>CCStdIncludePath</name>
+          <state>$TOOLKIT_DIR$\INC\</state>
+          <state>$TOOLKIT_DIR$\INC\CLIB\</state>
+        </option>
+        <option>
           <name>CompilerMisraRules98</name>
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
@@ -3683,38 +3539,13 @@
           <name>CCOptLevelSlave</name>
           <state>3</state>
         </option>
-        <option>
-          <name>CompilerMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>IccLang</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccAllowVLA</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCppDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccRelaxedFpPrecision</name>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>A8051</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>4</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -3819,6 +3650,11 @@
           <state>0</state>
         </option>
         <option>
+          <name>AIncludes</name>
+          <state>$TOOLKIT_DIR$\inc\</state>
+          <state>$TOOLKIT_DIR$\src\lib</state>
+        </option>
+        <option>
           <name>ADefines</name>
           <state></state>
         </option>
@@ -3858,14 +3694,6 @@
           <name>AMaxErrNum</name>
           <state>100</state>
         </option>
-        <option>
-          <name>Ignore standard include paths</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Include directories</name>
-          <state>$TOOLKIT_DIR$\SRC\LIB</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -3893,7 +3721,7 @@
       <name>XLINK</name>
       <archiveVersion>3</archiveVersion>
       <data>
-        <version>17</version>
+        <version>16</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -4206,10 +4034,6 @@
           <name>CrcInitialValue</name>
           <state>0x0</state>
         </option>
-        <option>
-          <name>Linker Far22 Heap Size</name>
-          <state>1</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -4253,7 +4077,7 @@
       <name>General</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>5</version>
+        <version>3</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -4382,6 +4206,16 @@
           <state>0</state>
         </option>
         <option>
+          <name>GRuntimeLibSelect</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
+          <name>GRuntimeLibSelectSlave</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
           <name>RTDescription</name>
           <state>Use the legacy C runtime library.</state>
         </option>
@@ -4460,44 +4294,13 @@
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
         </option>
-        <option>
-          <name>PDATA 8-15 register address</name>
-          <state>0xA0</state>
-        </option>
-        <option>
-          <name>PDATA 16-31 register address</name>
-          <state>0xEA</state>
-        </option>
-        <option>
-          <name>General Far22 Heap Size</name>
-          <state>0xFFF</state>
-        </option>
-        <option>
-          <name>GeneralMisraVer</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>GeneralMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelect2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelectSlave2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>4</archiveVersion>
+      <archiveVersion>3</archiveVersion>
       <data>
-        <version>9</version>
+        <version>6</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -4668,6 +4471,10 @@
           <state>1</state>
         </option>
         <option>
+          <name>CCLangSelect</name>
+          <state>0</state>
+        </option>
+        <option>
           <name>NoUBROFMessages</name>
           <state>0</state>
         </option>
@@ -4714,6 +4521,11 @@
           <state>0</state>
         </option>
         <option>
+          <name>CCStdIncludePath</name>
+          <state>$TOOLKIT_DIR$\INC\</state>
+          <state>$TOOLKIT_DIR$\INC\CLIB\</state>
+        </option>
+        <option>
           <name>CompilerMisraRules98</name>
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
@@ -4743,38 +4555,13 @@
           <name>CCOptLevelSlave</name>
           <state>3</state>
         </option>
-        <option>
-          <name>CompilerMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>IccLang</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccAllowVLA</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCppDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccRelaxedFpPrecision</name>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>A8051</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>4</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -4879,6 +4666,11 @@
           <state>0</state>
         </option>
         <option>
+          <name>AIncludes</name>
+          <state>$TOOLKIT_DIR$\inc\</state>
+          <state>$TOOLKIT_DIR$\src\lib</state>
+        </option>
+        <option>
           <name>ADefines</name>
           <state></state>
         </option>
@@ -4918,14 +4710,6 @@
           <name>AMaxErrNum</name>
           <state>100</state>
         </option>
-        <option>
-          <name>Ignore standard include paths</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Include directories</name>
-          <state>$TOOLKIT_DIR$\SRC\LIB</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -4953,7 +4737,7 @@
       <name>XLINK</name>
       <archiveVersion>3</archiveVersion>
       <data>
-        <version>17</version>
+        <version>16</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -5266,10 +5050,6 @@
           <name>CrcInitialValue</name>
           <state>0x0</state>
         </option>
-        <option>
-          <name>Linker Far22 Heap Size</name>
-          <state>1</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -5313,7 +5093,7 @@
       <name>General</name>
       <archiveVersion>1</archiveVersion>
       <data>
-        <version>5</version>
+        <version>3</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -5442,6 +5222,16 @@
           <state>0</state>
         </option>
         <option>
+          <name>GRuntimeLibSelect</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
+          <name>GRuntimeLibSelectSlave</name>
+          <version>0</version>
+          <state>4</state>
+        </option>
+        <option>
           <name>RTDescription</name>
           <state>Use the legacy C runtime library.</state>
         </option>
@@ -5520,44 +5310,13 @@
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
         </option>
-        <option>
-          <name>PDATA 8-15 register address</name>
-          <state>0xA0</state>
-        </option>
-        <option>
-          <name>PDATA 16-31 register address</name>
-          <state>0xEA</state>
-        </option>
-        <option>
-          <name>General Far22 Heap Size</name>
-          <state>0xFFF</state>
-        </option>
-        <option>
-          <name>GeneralMisraVer</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>GeneralMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelect2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
-        <option>
-          <name>GRuntimeLibSelectSlave2</name>
-          <version>0</version>
-          <state>3</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICC8051</name>
-      <archiveVersion>4</archiveVersion>
+      <archiveVersion>3</archiveVersion>
       <data>
-        <version>9</version>
+        <version>6</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -5730,6 +5489,10 @@
           <state>1</state>
         </option>
         <option>
+          <name>CCLangSelect</name>
+          <state>0</state>
+        </option>
+        <option>
           <name>NoUBROFMessages</name>
           <state>0</state>
         </option>
@@ -5776,6 +5539,11 @@
           <state>0</state>
         </option>
         <option>
+          <name>CCStdIncludePath</name>
+          <state>$TOOLKIT_DIR$\INC\</state>
+          <state>$TOOLKIT_DIR$\INC\CLIB\</state>
+        </option>
+        <option>
           <name>CompilerMisraRules98</name>
           <version>0</version>
           <state>1000111110110101101110011100111111101110011011000101110111101101100111111111111100110011111001110111001111111111111111111111111</state>
@@ -5805,38 +5573,13 @@
           <name>CCOptLevelSlave</name>
           <state>3</state>
         </option>
-        <option>
-          <name>CompilerMisraRules04</name>
-          <version>0</version>
-          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
-        </option>
-        <option>
-          <name>IccLang</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccAllowVLA</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>IccCppDialect</name>
-          <state>1</state>
-        </option>
-        <option>
-          <name>IccRelaxedFpPrecision</name>
-          <state>0</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>A8051</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>5</version>
+        <version>4</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -5941,6 +5684,13 @@
           <state>0</state>
         </option>
         <option>
+          <name>AIncludes</name>
+          <state>$TOOLKIT_DIR$\inc\</state>
+          <state>$TOOLKIT_DIR$\src\lib</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\HAL\INCLUDE</state>
+          <state>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\HAL\TARGET\CC2530EB</state>
+        </option>
+        <option>
           <name>ADefines</name>
           <state></state>
         </option>
@@ -5980,16 +5730,6 @@
           <name>AMaxErrNum</name>
           <state>100</state>
         </option>
-        <option>
-          <name>Ignore standard include paths</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>Include directories</name>
-          <state>$TOOLKIT_DIR$\SRC\LIB</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\HAL\INCLUDE</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\HAL\TARGET\CC2530EB</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -6017,7 +5757,7 @@
       <name>XLINK</name>
       <archiveVersion>3</archiveVersion>
       <data>
-        <version>17</version>
+        <version>16</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -6330,10 +6070,6 @@
           <name>CrcInitialValue</name>
           <state>0x0</state>
         </option>
-        <option>
-          <name>Linker Far22 Heap Size</name>
-          <state>1</state>
-        </option>
       </data>
     </settings>
     <settings>
@@ -6370,13 +6106,10 @@
   <group>
     <name>App</name>
     <file>
-      <name>$PROJ_DIR$\Coordinator.c</name>
+      <name>$PROJ_DIR$\..\Source\GenericApp.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\Coordinator.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Enddevice.c</name>
+      <name>$PROJ_DIR$\..\Source\GenericApp.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\Source\OSAL_GenericApp.c</name>
@@ -6396,43 +6129,43 @@
     <group>
       <name>Include</name>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_adc.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_adc.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_assert.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_assert.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_board.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_board.h</name>
       </file>
       <file>
         <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_ccm.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_defs.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_defs.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_drivers.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_drivers.h</name>
       </file>
       <file>
         <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_flash.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_key.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_key.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_lcd.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_lcd.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_led.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_led.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_sleep.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_sleep.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_timer.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_timer.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\include\hal_uart.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\include\hal_uart.h</name>
       </file>
     </group>
     <group>
@@ -6442,7 +6175,7 @@
         <group>
           <name>Config</name>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\target\CC2530EB\hal_board_cfg.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530EB\hal_board_cfg.h</name>
           </file>
         </group>
         <group>
@@ -6481,16 +6214,16 @@
         <group>
           <name>Includes</name>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\target\CC2530EB\hal_aes.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530EB\hal_aes.h</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530EB\hal_dma.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\target\CC2530EB\hal_dma.h</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\target\CC2530EB\hal_mcu.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530EB\hal_mcu.h</name>
           </file>
           <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\hal\target\CC2530EB\hal_types.h</name>
+            <name>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530EB\hal_types.h</name>
           </file>
         </group>
       </group>
@@ -6504,19 +6237,19 @@
         <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\high_level\mac_cfg.c</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\HIGH_LEVEL\mac_high_level.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\high_level\mac_high_level.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\HIGH_LEVEL\mac_pib.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\high_level\mac_pib.h</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\HIGH_LEVEL\mac_spec.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\high_level\mac_spec.h</name>
       </file>
     </group>
     <group>
       <name>Include</name>
       <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\include\mac_api.h</name>
+        <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\include\mac_api.h</name>
       </file>
     </group>
     <group>
@@ -6581,25 +6314,25 @@
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_csp_tx.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\LOW_LEVEL\srf04\SINGLE_CHIP\mac_csp_tx.h</name>
+          <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_csp_tx.h</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_mcu.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\LOW_LEVEL\srf04\SINGLE_CHIP\mac_mcu.h</name>
+          <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_mcu.h</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_mem.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\LOW_LEVEL\srf04\SINGLE_CHIP\mac_mem.h</name>
+          <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_mem.h</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_radio_defs.c</name>
         </file>
         <file>
-          <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mac\LOW_LEVEL\srf04\SINGLE_CHIP\mac_radio_defs.h</name>
+          <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_radio_defs.h</name>
         </file>
         <file>
           <name>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip\mac_rffrontend.c</name>
@@ -6613,13 +6346,13 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\DebugTrace.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mt\DebugTrace.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\DebugTrace.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mt\MT.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_AF.c</name>
@@ -6646,7 +6379,7 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_NWK.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mt\MT_RPC.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_RPC.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_SAPI.c</name>
@@ -6658,19 +6391,19 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_SYS.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mt\MT_SYS.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_SYS.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_TASK.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mt\MT_TASK.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_TASK.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_UART.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mt\MT_UART.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_UART.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_UTIL.c</name>
@@ -6688,7 +6421,7 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_ZDO.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\mt\MT_ZDO.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\mt\MT_ZDO.h</name>
     </file>
   </group>
   <group>
@@ -6697,46 +6430,46 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\AddrMgr.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\APS.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\APS.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\aps_frag.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\aps_frag.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\aps_groups.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\aps_groups.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\aps_util.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\APSMEDE.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\APSMEDE.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\AssocList.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\AssocList.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\BindingTable.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\BindingTable.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\NLMEDE.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\NLMEDE.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\nwk.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\nwk.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\nwk_bufs.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\nwk_bufs.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\nwk_globals.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\nwk_globals.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\nwk_globals.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\nwk_util.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\nwk_util.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\nwk\reflecttrack.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\reflecttrack.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk\rtg.h</name>
@@ -6745,55 +6478,55 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\sys\ZGlobals.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\sys\ZGlobals.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\sys\ZGlobals.h</name>
     </file>
   </group>
   <group>
     <name>OSAL</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\osal\include\comdef.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\include\comdef.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\common\OSAL.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\osal\include\OSAL.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\include\OSAL.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\common\OSAL_Clock.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\osal\include\OSAL_Clock.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\include\OSAL_Clock.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\common\OSAL_Memory.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\osal\include\OSAL_Memory.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\include\OSAL_Memory.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\mcu\cc2530\OSAL_Nv.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\osal\include\OSAL_Nv.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\include\OSAL_Nv.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\common\OSAL_PwrMgr.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\osal\include\OSAL_PwrMgr.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\include\OSAL_PwrMgr.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\osal\include\OSAL_Tasks.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\include\OSAL_Tasks.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\common\OSAL_Timers.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\osal\include\OSAL_Timers.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\include\OSAL_Timers.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\osal\include\ZComDef.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\osal\include\ZComDef.h</name>
     </file>
   </group>
   <group>
@@ -6802,13 +6535,13 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\af\AF.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\af\AF.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\af\AF.h</name>
     </file>
   </group>
   <group>
     <name>Security</name>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\sec\ssp.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\sec\ssp.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\sec\ssp_hash.h</name>
@@ -6820,7 +6553,7 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\services\saddr\saddr.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\services\saddr\saddr.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\services\saddr\saddr.h</name>
     </file>
   </group>
   <group>
@@ -6865,31 +6598,31 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDApp.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\zdo\ZDApp.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDApp.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDConfig.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\zdo\ZDConfig.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDConfig.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDNwkMgr.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\zdo\ZDNwkMgr.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDNwkMgr.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDObject.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\zdo\ZDObject.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDObject.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDProfile.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\stack\zdo\ZDProfile.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDProfile.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo\ZDSecMgr.c</name>
@@ -6904,13 +6637,13 @@
       <name>$PROJ_DIR$\..\..\..\..\..\Components\zmac\f8w\zmac.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\zmac\ZMAC.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\zmac\ZMAC.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\..\..\..\Components\zmac\f8w\zmac_cb.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\COMPONENTS\zmac\f8w\zmac_internal.h</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\Components\zmac\f8w\zmac_internal.h</name>
     </file>
   </group>
   <group>
