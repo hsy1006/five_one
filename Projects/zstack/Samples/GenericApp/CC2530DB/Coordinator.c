@@ -44,7 +44,7 @@ const SimpleDescriptionFormat_t GenericApp_SimpleDesc =
     0,
     (cId_t *)NULL
 };
-//定义三个变量
+//定义变量
 endPointDesc_t GenericApp_epDesc;//节点描述符
 byte GenericApp_TaskID;//任务优先级
 byte GenericApp_TransID;//数据发送序列号
